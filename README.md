@@ -10,7 +10,8 @@
 We use this bio-inspired philosophy to design a minimalist sensori-motor framework for a quadrotor to fly though unknown gaps without a 3D reconstruction of the scene using only a monocular camera and onboard sensing. We successfully evaluate and demonstrate the proposed approach in many real-world experiments with different settings and window shapes, achieving a success rate of 85% at 2.5m/s, even with a minimum tolerance of just 5cm.
 
 ## Publication:
-Nitin J Sanket &ast, Chahat Deep Singh &ast, Kanishka Ganguly, Cornelia Fermuller, Yiannis Aloimonos (&ast *Equal Contribution*)
+Nitin J Sanket*, Chahat Deep Singh*, Kanishka Ganguly, Cornelia Fermuller, Yiannis Aloimonos<br>
+(* Equal Contribution)
 ```
 @article{sanket2018gapflyt,
   title={GapFlyt: Active Vision Based Minimalist Structure-less Gap Detection For Quadrotor Flight},

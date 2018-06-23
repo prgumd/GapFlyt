@@ -19,7 +19,7 @@ Nitin J Sanket*, Chahat Deep Singh*, Kanishka Ganguly, Cornelia Fermuller, Yiann
 ```
 @article{sanket2018gapflyt,
   title={GapFlyt: Active Vision Based Minimalist Structure-less Gap Detection For Quadrotor Flight},
-  author={Sanket, Nitin J and Singh, Chahat and Ganguly, Kanishka and Fermuller, Cornelia and Aloimonos, Yiannis},
+  author={Sanket, Nitin J and Singh, Chahat and Ganguly, Kanishka and Ferm{\"u}ller, Cornelia and Aloimonos, Yiannis},
   journal={IEEE Robotics and Automation Letters},
   year={2018},
   publisher={IEEE}

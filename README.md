@@ -18,7 +18,6 @@ Nitin J Sanket &ast, Chahat Deep Singh &ast, Kanishka Ganguly, Cornelia Fermulle
   journal={IEEE Robotics and Automation Letters},
   year={2018},
   publisher={IEEE}
-}```
+}
+```
 
-## License:
-Copyright (C) etc.

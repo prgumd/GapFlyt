@@ -26,7 +26,7 @@ Nitin J Sanket*, Chahat Deep Singh*, Kanishka Ganguly, Cornelia Fermuller, Yiann
 }
 ```
 
-## Maintainer:
+## Maintainers:
 - [Nitin J Sanket](http://nitinjsanket.github.io)
 - [Chahat Deep Singh](http://chahatdeep.github.io)
 

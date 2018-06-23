@@ -1,2 +1,2 @@
 ## Window Detection
-Run RunMe.m
+Run `RunMe.m`

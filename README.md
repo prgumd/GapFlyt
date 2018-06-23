@@ -21,3 +21,9 @@ Nitin J Sanket &ast, Chahat Deep Singh &ast, Kanishka Ganguly, Cornelia Fermulle
 }
 ```
 
+## Maintainer:
+- [Nitin J Sanket](http://nitinjsanket.github.io)
+- [Chahat Deep Singh](http://chahatdeep.github.io)
+
+## License:
+Copyright (c) 2018 Perception and Robotics Group (PRG)

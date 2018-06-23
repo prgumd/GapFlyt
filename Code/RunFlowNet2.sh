@@ -1,0 +1,3 @@
+
+cd /home/chahatdeep/WindowDetectionWithControlApril05/flownet2-tf/ && python -m  src.flownet2.test --input_a /home/chahatdeep/WindowDetectionWithControlApril05/Temp/frame_0001.png --input_b /home/chahatdeep/WindowDetectionWithControlApril05/Temp/frame_0002.png --out /home/chahatdeep/WindowDetectionWithControlApril05/Output/ --outname 1and2 && cd ..
+cd /home/chahatdeep/WindowDetectionWithControlApril05/flownet2-tf/ && python -m  src.flownet2.test --input_a /home/chahatdeep/WindowDetectionWithControlApril05/Temp/frame_0001.png --input_b /home/chahatdeep/WindowDetectionWithControlApril05/Temp/frame_0003.png --out /home/chahatdeep/WindowDetectionWithControlApril05/Output/ --outname 1and3 && cd ..

@@ -1,0 +1,16 @@
+function Pose = ReadPose(AllMsgsSel)
+% Each Row of Pose has the following format:
+% [PosX, PosY, PosZ, QuatW, QuatX, QuatY, QuatZ, EulX, EulY, EulZ, TimeStamp]
+
+Pose = cellfun(@ExtractData, AllMsgsSel, 'UniformOutput', false);
+Pose = cell2mat(Pose);
+end
+
+function Pose = ExtractData(AllMsgsSel)
+Pose = [AllMsgsSel.Pose.Position.X,  AllMsgsSel.Pose.Position.Y,...
+        AllMsgsSel.Pose.Position.Z, AllMsgsSel.Pose.Orientation.W,...
+        AllMsgsSel.Pose.Orientation.X, AllMsgsSel.Pose.Orientation.Y,...
+        AllMsgsSel.Pose.Orientation.Z, quat2eul([AllMsgsSel.Pose.Orientation.W,...
+        AllMsgsSel.Pose.Orientation.X, AllMsgsSel.Pose.Orientation.Y,...
+        AllMsgsSel.Pose.Orientation.Z]), AllMsgsSel.Header.Stamp.Sec + AllMsgsSel.Header.Stamp.Nsec*1e-9];
+end

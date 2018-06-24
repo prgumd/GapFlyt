@@ -22,7 +22,7 @@ You must have CUDA installed:
 
 ### Download weights
 To download the weights for all models (4.4GB), run the `download.sh` script in the `checkpoints` directory. All test scripts rely on these checkpoints to work properly. 
-If the download fails, directly download the weights from [here](https://doc-0g-b4-docs.googleusercontent.com/docs/securesc/diuhiier8f3lbm44v9p44d1n6o10ft4n/nog1d2rv5rt7lh5iam2669nd7t55p979/1529805600000/18093896044146087554/18093896044146087554/1B4Mdy2m_FPqSC16Z0LPsmsZaa-H9rTZD?e=download&h=09221738537919217220&nonce=mqtog9d488cog&user=18093896044146087554&hash=ft9ejlhjrrvlaotcnput6vo62fmgmfn2).
+If the download fails, directly download the weights from [here](https://doc-0g-b4-docs.googleusercontent.com/docs/securesc/diuhiier8f3lbm44v9p44d1n6o10ft4n/nog1d2rv5rt7lh5iam2669nd7t55p979/1529805600000/18093896044146087554/18093896044146087554/1B4Mdy2m_FPqSC16Z0LPsmsZaa-H9rTZD?e=download&h=09221738537919217220&nonce=mqtog9d488cog&user=18093896044146087554&hash=ft9ejlhjrrvlaotcnput6vo62fmgmfn2) and unzip in `checkpoints` folder.
 
 ### Testing: 
 ```

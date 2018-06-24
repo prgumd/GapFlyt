@@ -1,7 +1,7 @@
-## FlowNet2 (TensorFlow)
+# FlowNet2[1] TensorFlow Setup:
+### Source: [FlowNet2-tf](https://github.com/sampepose/flownet2-tf)
+This includes FlowNet2, C, S, CS, CSS, CSS-ft-sd, and SD. The following instructions directly pulled from [here](https://github.com/sampepose/flownet2-tf).
 
-This repo contains FlowNet2[1] for TensorFlow. It includes FlowNetC, S, CS, CSS, CSS-ft-sd, SD, and 2.
-https://github.com/sampepose/flownet2-tf
 
 ### Installation
 ```
@@ -21,11 +21,10 @@ You must have CUDA installed:
 `make all`
 
 ### Download weights
-To download the weights for all models (4.4GB), run the `download.sh` script in the `checkpoints` directory. All test scripts rely on these checkpoints to work properly.
+To download the weights for all models (4.4GB), run the `download.sh` script in the `checkpoints` directory. All test scripts rely on these checkpoints to work properly. 
+If the download fails, directly download the weights from [here](https://doc-0g-b4-docs.googleusercontent.com/docs/securesc/diuhiier8f3lbm44v9p44d1n6o10ft4n/nog1d2rv5rt7lh5iam2669nd7t55p979/1529805600000/18093896044146087554/18093896044146087554/1B4Mdy2m_FPqSC16Z0LPsmsZaa-H9rTZD?e=download&h=09221738537919217220&nonce=mqtog9d488cog&user=18093896044146087554&hash=ft9ejlhjrrvlaotcnput6vo62fmgmfn2).
 
-
-### Flow Generation (1 image pair)
-
+### Testing: 
 ```
 python -m src.flownet2.test --input_a data/samples/0img0.ppm --input_b data/samples/0img1.ppm --out ./
 ```
@@ -37,29 +36,6 @@ Available models:
 * `flownet_cs`
 * `flownet_css` (can edit test.py to use css-ft-sd weights)
 * `flownet_sd`
-
-If installation is successful, you should predict the following flow from samples/0img0.ppm:
-![FlowNet2 Sample Prediction](/data/samples/0flow-pred-flownet2.png?raw=true)
-
-### Training
-If you would like to train any of the networks from scratch (replace `flownet2` with the appropriate model):
-```
-python -m src.flownet2.train
-```
-For stacked networks, previous network weights will be loaded and fixed. For example, if training CS, the C weights are loaded and fixed and the S weights are randomly initialized.
-
-
-### Fine-tuning
-TODO
-
-### Benchmarks
-Benchmarks are for a forward pass with each model of two 512x384 images. All benchmarks were tested with a K80 GPU and Intel Xeon CPU E5-2682 v4 @ 2.30GHz. Code was executed with TensorFlow-1.2.1 and python 2.7.12 on Ubuntu 16.04. Resulting times were averaged over 10 runs. The first run is always slower as it sets up the Tensorflow Session.
-
-| | S | C | CS | CSS | SD | 2
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| First Run | 681.039ms | 898.792ms | 998.584ms | 1063.357ms | 933.806ms | 1882.003ms |
-| Subsequent Runs | 38.067ms | 78.789ms | 123.300ms | 161.186ms | 62.061ms | 276.641ms |
-
 
 ### Sources
 [1] E. Ilg, N. Mayer, T. Saikia, M. Keuper, A. Dosovitskiy, T. Brox

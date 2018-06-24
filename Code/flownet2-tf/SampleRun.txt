@@ -1,0 +1,5 @@
+python -m  src.flownet2.test --input_a /media/nitin/Research/GapAssesment/2017-07-11-01-06-08Frames/frame_0001.png --input_b /media/nitin/Research/GapAssesment/2017-07-11-01-06-08Frames/frame_0003.png --out ../2017-07-11-01-06-08Skip2Net2/ --outname 1and3
+
+
+python -m  src.flownet2.test --input_a 13.png --input_b 15.png --out ./ --outname 13and15Gray
+

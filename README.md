@@ -10,7 +10,8 @@
 We use this bio-inspired philosophy to design a minimalist sensori-motor framework for a quadrotor to fly though unknown gaps without a 3D reconstruction of the scene using only a monocular camera and onboard sensing. We successfully evaluate and demonstrate the proposed approach in many real-world experiments with different settings and window shapes, achieving a success rate of 85% at 2.5m/s, even with a minimum tolerance of just 5cm.
 
 - [Project Page](http://prg.cs.umd.edu/GapFlyt.html)
-- [Paper](https://arxiv.org/pdf/1802.05330.pdf)
+- [IEEE-RAL 2018 Paper](https://ieeexplore.ieee.org/document/8371216/)
+- [arXiv Preprint](https://arxiv.org/pdf/1802.05330.pdf)
 - [Supplementary](http://prg.cs.umd.edu/research/gapflyt_files/Supplementary-GapFlyt.pdf)
 
 ## Publication:

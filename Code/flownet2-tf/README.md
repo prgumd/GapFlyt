@@ -35,10 +35,10 @@ Available models:
 * `flownet_css` (can edit test.py to use css-ft-sd weights)
 * `flownet_sd`
 
-`**NOTE:**  We use flownet2 for all our experiments.`
+**NOTE: We use flownet2 for all our experiments.**
 
 ### References
 [1] E. Ilg, N. Mayer, T. Saikia, M. Keuper, A. Dosovitskiy, T. Brox
 FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks,
 IEEE Conference in Computer Vision and Pattern Recognition (CVPR), 2017.
-[2] Samoepose's FlowNet2-tf Implementation: https://github.com/sampepose/flownet2-tf
+[2] Sampepose's FlowNet2-tf Implementation: https://github.com/sampepose/flownet2-tf

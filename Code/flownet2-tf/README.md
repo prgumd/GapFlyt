@@ -1,7 +1,5 @@
-# FlowNet2[1] TensorFlow Setup:
-### Source: [FlowNet2-tf](https://github.com/sampepose/flownet2-tf)
-This includes FlowNet2, C, S, CS, CSS, CSS-ft-sd, and SD. The following instructions directly pulled from [here](https://github.com/sampepose/flownet2-tf).
-
+# FlowNet2 TensorFlow Setup:
+This includes FlowNet2, C, S, CS, CSS, CSS-ft-sd, and SD.=
 
 ### Installation
 ```
@@ -26,7 +24,7 @@ If the download fails, directly download the weights from [here](https://doc-0g-
 
 ### Testing: 
 ```
-python -m src.flownet2.test --input_a data/samples/0img0.ppm --input_b data/samples/0img1.ppm --out ./
+python -m src.flownet2.test --input_a data/samples/frame_0001.png --input_b data/samples/frame_0001.png --out /data/samples/out/ --outname 1and2
 ```
 
 Available models:
@@ -37,7 +35,10 @@ Available models:
 * `flownet_css` (can edit test.py to use css-ft-sd weights)
 * `flownet_sd`
 
-### Sources
+`**NOTE:**  We use flownet2 for all our experiments.`
+
+### References
 [1] E. Ilg, N. Mayer, T. Saikia, M. Keuper, A. Dosovitskiy, T. Brox
 FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks,
 IEEE Conference in Computer Vision and Pattern Recognition (CVPR), 2017.
+[2] Samoepose's FlowNet2-tf Implementation: https://github.com/sampepose/flownet2-tf

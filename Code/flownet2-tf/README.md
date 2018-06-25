@@ -1,5 +1,8 @@
 # FlowNet2 TensorFlow Setup:
-This includes FlowNet2, C, S, CS, CSS, CSS-ft-sd, and SD.=
+This includes FlowNet2, C, S, CS, CSS, CSS-ft-sd, and SD.
+
+**NOTE: We use flownet2 for all our experiments.**
+
 
 ### Installation
 ```
@@ -34,8 +37,6 @@ Available models:
 * `flownet_cs`
 * `flownet_css` (can edit test.py to use css-ft-sd weights)
 * `flownet_sd`
-
-**NOTE: We use flownet2 for all our experiments.**
 
 ### References
 [1] E. Ilg, N. Mayer, T. Saikia, M. Keuper, A. Dosovitskiy, T. Brox

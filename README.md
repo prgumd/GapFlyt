@@ -1,4 +1,4 @@
-# GapFlyt: Active Vision Based Minimalist Structure-less Gap Detection For Quadrotor Flight
+# GapFlyt: Active Vision Based Minimalist Structure-less Gap Detection For Quadrotor Flight [Wiki](https://github.com/prgumd/GapFlyt/wiki)
 
 **GapFlyt** by [_Perception & Robotics Group_](http://prg.cs.umd.edu) at the Department of Computer Science, [University of Maryland- College Park](https://www.umd.edu/).
 

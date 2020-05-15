@@ -15,8 +15,7 @@ We use this bio-inspired philosophy to design a minimalist sensori-motor framewo
 - [Supplementary](http://prg.cs.umd.edu/research/gapflyt_files/Supplementary-GapFlyt.pdf)
 
 ## Publication:
-Nitin J Sanket*, Chahat Deep Singh*, Kanishka Ganguly, Cornelia Fermuller, Yiannis Aloimonos<br>
-(* Equal Contribution)
+If you find our work useful please do cite us as follows:
 ```
 @article{sanket2018gapflyt,
   title={GapFlyt: Active Vision Based Minimalist Structure-less Gap Detection For Quadrotor Flight},
